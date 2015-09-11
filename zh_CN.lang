@@ -17,8 +17,8 @@ achievement.thermalexpansion.crucible=熔炼万物
 achievement.thermalexpansion.crucible.desc=是的,它能做岩浆.你这怪物.
 achievement.thermalexpansion.transposer=(基本上能够)自由填充
 achievement.thermalexpansion.transposer.desc=手动装桶太累人.
-achievement.thermalexpansion.iceGen=打雪仗!
-achievement.thermalexpansion.iceGen.desc=造不出黄雪.
+achievement.thermalexpansion.precipitator=打雪仗!
+achievement.thermalexpansion.precipitator.desc=造不出黄雪.
 achievement.thermalexpansion.extruder=嘿这是石头!
 achievement.thermalexpansion.extruder.desc=还有黑曜石呢!
 achievement.thermalexpansion.accumulator=水,无处不水
@@ -41,8 +41,8 @@ achievement.thermalexpansion.florb.desc=它装着流体. 你扔扔看呗.
 achievement.thermalexpansion.florbMagmatic=这个世界在熊熊燃烧.
 achievement.thermalexpansion.florbMagmatic=流体球. 是的, 它装着岩浆. 你这怪物.
 
-achievement.thermalexpansion.potatoBattery=考虑不周的念头!
-achievement.thermalexpansion.potatoBattery.desc=马那个铃那个薯
+achievement.thermalexpansion.capacitorPotato=考虑不周的念头!
+achievement.thermalexpansion.capacitorPotato.desc=马那个铃那个薯
 
 achievement.thermalexpansion.fluidRedstone=红石革命!
 achievement.thermalexpansion.fluidRedstone.desc=世界虽未颠倒, 但已不同.
@@ -67,12 +67,12 @@ chat.thermalexpansion.light.4=模式:总是关闭
 chat.thermalexpansion.light.5=模式:总是开启
 
 #Cell
-info.thermalexpansion.cell.decRecv=减少RF输入通过
-info.thermalexpansion.cell.decSend=减少RF输出通过
-info.thermalexpansion.cell.incRecv=增加RF输入通过
-info.thermalexpansion.cell.incSend=增加RF输入通过
-info.thermalexpansion.cell.maxIn=最大输入
-info.thermalexpansion.cell.maxOut=最大输出
+info.thermalexpansion.decRecv=减少RF输入通过
+info.thermalexpansion.decSend=减少RF输出通过
+info.thermalexpansion.incRecv=增加RF输入通过
+info.thermalexpansion.incSend=增加RF输入通过
+info.thermalexpansion.maxIn=最大输入
+info.thermalexpansion.maxOut=最大输出
 
 #Workbench
 info.thermalexpansion.gridClear=清空合成网格
@@ -104,17 +104,17 @@ info.thermalexpansion.modeSend=仅发送
 info.thermalexpansion.modeSendRecv=发生/接收
 
 #Smelter
-info.thermalexpansion.smelter.toggleLock=锁定Flux格
-info.thermalexpansion.smelter.toggleUnlock=解锁Flux格
+info.thermalexpansion.toggleSmelterLock=锁定Flux格
+info.thermalexpansion.toggleSmelterUnlock=解锁Flux格
 
 #Transposer
-info.thermalexpansion.transposer.toggleEmpty=激活:空置
-info.thermalexpansion.transposer.toggleFill=激活:填充
-info.thermalexpansion.transposer.toggleWait=已激活
+info.thermalexpansion.toggleEmpty=激活:空置
+info.thermalexpansion.toggleFill=激活:填充
+info.thermalexpansion.toggleWait=已激活
 
 #Insolator
-info.thermalexpansion.insolator.toggleLock=锁定肥料格
-info.thermalexpansion.insolator.toggleUnlock=解锁肥料格
+info.thermalexpansion.toggleInsolatorLock=锁定肥料格
+info.thermalexpansion.toggleInsolatorUnlock=解锁肥料格
 
 #Plates
 info.thermalexpansion.distance=距离
@@ -136,12 +136,12 @@ info.thermalexpansion.augment.fuelConsumed=燃料消耗
 info.thermalexpansion.augment.fuelEnergy=基础燃料能量
 info.thermalexpansion.augment.levels.0=需要先安装低级版本.
 info.thermalexpansion.augment.levels.1=已是最高级扩展.
-info.thermalexpansion.augment.levels.2=需要先安装红石控制模块.
 info.thermalexpansion.augment.machine.0=需要一个
 info.thermalexpansion.augment.machine.1=机器
-info.thermalexpansion.augment.secondaryChance=副产物几率
+info.thermalexpansion.augment.requireRS=需要先安装红石控制模块.
 info.thermalexpansion.augment.perOperation=对于每次操作
 info.thermalexpansion.augment.production=产物
+info.thermalexpansion.augment.secondaryChance=副产物几率
 info.thermalexpansion.augment.speed=速度
 info.thermalexpansion.augment.upTo=最大提升至
 info.thermalexpansion.augment.waterConsumed=耗水量
@@ -155,6 +155,8 @@ info.thermalexpansion.augment.dynamoThrottle.0=提升能源炉的节流因此有
 
 info.thermalexpansion.augment.generalAutoOutput=自动输出
 info.thermalexpansion.augment.generalAutoOutput.0=允许物品和流体从设备中自动输出.
+info.thermalexpansion.augment.generalAutoInput=自动输入
+info.thermalexpansion.augment.generalAutoInput.0=允许物品和流体从设备外自动输入.
 info.thermalexpansion.augment.generalReconfigSides=侧面重组
 info.thermalexpansion.augment.generalReconfigSides.0=允许重新设置设备的侧面.
 info.thermalexpansion.augment.generalRedstoneControl=红石控制
@@ -162,6 +164,9 @@ info.thermalexpansion.augment.generalRedstoneControl.0=允许在设备上使用�
 
 info.thermalexpansion.augment.machineSecondary=机器:副产输出
 info.thermalexpansion.augment.machineSpeed=机器:加工速度
+
+info.thermalexpansion.augment.machineNull=机器:副产焚毁
+info.thermalexpansion.augment.machineNull.0=销毁多余的副产输出.
 
 info.thermalexpansion.augment.machineFurnaceFood=红石炉: 特种化处理
 info.thermalexpansion.augment.machineFurnaceFood.0=提高食物产出.
@@ -176,6 +181,7 @@ info.thermalexpansion.capacitor.3=按住潜行(shift)键再次右击即可取消
 info.thermalexpansion.capacitor.4=必须放在快捷栏内.
 info.thermalexpansion.capacitor.potato=机智的马铃薯君,可惜不能再次充能.
 
+info.thermalexpansion.device.workbench=合成物品;可使用蓝图.
 info.thermalexpansion.device.activator=能做的事情比提示文本告诉你的还要多.
 info.thermalexpansion.device.breaker=破坏方块.不能再简单了.
 info.thermalexpansion.device.nullifier=彻底移除物品的存在.
@@ -215,7 +221,8 @@ info.thermalexpansion.plate.signal=向触点上物体发射红石信号.
 info.thermalexpansion.plate.impulse=向触点上物体施加动力.
 info.thermalexpansion.plate.translocate=传送触点上的物体.
 
-info.thermalexpansion.workbench=合成物品;可使用蓝图.
+info.thermalexpansion.rockwool.default=通过熔炼矿渣获取.
+info.thermalexpansion.rockwool.dyed=通过染色其他石棉获取.
 
 info.thermalexpansion.florb.0=可容纳1000mB大多数类型流体.
 info.thermalexpansion.florb.1=可容纳1000mB大多数类型流体.
@@ -242,15 +249,16 @@ info.thermalexpansion.wrench=潜行时使用扳手拆除.
 
 #Items
 item.thermalexpansion.augment.dynamoCoilDuct.name=传输线圈管道
+item.thermalexpansion.augment.dynamoThrottle.name=励磁限制装置
 item.thermalexpansion.augment.dynamoEfficiency0.name=二级变速装置
 item.thermalexpansion.augment.dynamoEfficiency1.name=通量连接优化
 item.thermalexpansion.augment.dynamoEfficiency2.name=低温线圈稳流
 item.thermalexpansion.augment.dynamoOutput0.name=二级传输线圈
 item.thermalexpansion.augment.dynamoOutput1.name=通量调控加速
 item.thermalexpansion.augment.dynamoOutput2.name=低温线圈增幅
-item.thermalexpansion.augment.dynamoThrottle.name=励磁限制装置
 
 item.thermalexpansion.augment.generalAutoOutput.name=集成伺服装置
+item.thermalexpansion.augment.generalAutoInput.name=集成漏斗装置
 item.thermalexpansion.augment.generalReconfigSides.name=集成模块框架
 item.thermalexpansion.augment.generalRedstoneControl.name=集成红石电路
 
@@ -260,6 +268,8 @@ item.thermalexpansion.augment.machineSecondary2.name=陀螺伺服反馈
 item.thermalexpansion.augment.machineSpeed0.name=二级接收线圈
 item.thermalexpansion.augment.machineSpeed1.name=超频变速模块
 item.thermalexpansion.augment.machineSpeed2.name=通量时空调谐
+
+item.thermalexpansion.augment.machineNull.name=焚毁舱室
 
 item.thermalexpansion.augment.machineFurnaceFood.name=三角稳定舱室
 
@@ -323,6 +333,9 @@ recipe.thermalexpansion.secure=安全保护合成
 tab.thermalexpansion.cell.0=储存RF.
 tab.thermalexpansion.cell.1=按住Shift或Ctrl调节能量控制.
 
+tab.thermalexpansion.device.workbench.0=合成物品!
+tab.thermalexpansion.device.workbench.1=合成配方可以导入或导出图纸.
+tab.thermalexpansion.device.workbench.2=Shift右击图纸以直接合成既存配方.
 tab.thermalexpansion.device.activator.0=它能切片!能切块!能倒东西,也能扔东西!
 tab.thermalexpansion.device.activator.1=它可能是随机的,也可能不是.可能是潜行的,也可能不是.
 tab.thermalexpansion.device.activator.2=看起来就是万能的!
@@ -401,10 +414,6 @@ tab.thermalexpansion.storage.enchant=附魔后可储存更多物品!
 
 tab.thermalexpansion.strongbox.0=这是个箱子!用于储存物品.唔,很多物品.
 tab.thermalexpansion.strongbox.creative=无限制储存某种物品!
-
-tab.thermalexpansion.workbench.0=合成物品!
-tab.thermalexpansion.workbench.1=合成配方可以导入或导出图纸.
-tab.thermalexpansion.workbench.2=Shift右击图纸以直接合成既存配方.
 
 #Blocks
 tile.thermalexpansion.cache.creative.name=创造储物箱
