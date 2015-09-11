@@ -67,18 +67,6 @@ chat.thermalexpansion.light.3=모드: 신호 세기 (반비례)
 chat.thermalexpansion.light.4=모드: 항상 끔
 chat.thermalexpansion.light.5=모드: 항상 켬
 
-config.thermalexpansion.block=블록
-config.thermalexpansion.block.feature=활성화/비활성화
-#config.thermalexpansion.block.tweak=Behavior
-config.thermalexpansion.item=아이템
-config.thermalexpansion.item.feature=활성화/비활성화
-config.thermalexpansion.plugins=플러그인
-config.thermalexpansion.plugins.tweak=옵션
-config.thermalexpansion.security=보안
-config.thermalexpansion.tweak=변경
-config.thermalexpansion.tweak.crafting=조합 처리
-config.thermalexpansion.tweak.recipe=레시피
-
 #에너지 셀(Cell)
 info.thermalexpansion.decRecv=RF 입력량 감소
 info.thermalexpansion.decSend=RF 출력량 감소
@@ -86,13 +74,6 @@ info.thermalexpansion.incRecv=RF 입력량 증가
 info.thermalexpansion.incSend=RF 출력량 증가
 info.thermalexpansion.maxIn=최대 입력량
 info.thermalexpansion.maxOut=최대 출력량
-
-#작업대(Workbench)
-info.thermalexpansion.gridClear=조합창 초기화
-info.thermalexpansion.gridSet=도식에 따라 크래프팅 그리드 설정
-info.thermalexpansion.noRecipe=존재하지 않는 조합법
-info.thermalexpansion.noSchematic=도식 없음
-info.thermalexpansion.writeSchematic=도식 작성
 
 #활성화기(Activator)
 info.thermalexpansion.angleLevel=같은 높이
@@ -106,6 +87,12 @@ info.thermalexpansion.slotsRR=순차적으로 사용
 info.thermalexpansion.sneakOff=Shift 미사용
 info.thermalexpansion.sneakOn=Shift 사용
 
+#Buffer
+info.thermalexpansion.buffer.disableInput=Disable Input
+info.thermalexpansion.buffer.disableOutput=Disable Output
+info.thermalexpansion.buffer.enableInput=Enable Input
+info.thermalexpansion.buffer.enableOutput=Enable Output
+
 #테서락트(Tesseract)
 info.thermalexpansion.inactive=비활성화
 info.thermalexpansion.modeBlocked=차단됨
@@ -116,24 +103,31 @@ info.thermalexpansion.modeRecv=받기
 info.thermalexpansion.modeSend=보내기
 info.thermalexpansion.modeSendRecv=받기/보내기
 
-#Smelter
-info.thermalexpansion.smelter.toggleLock=Lock Flux Slot
-info.thermalexpansion.smelter.toggleUnlock=Unlock Flux Slot
+#제련기(Smelter)
+info.thermalexpansion.smelter.toggleLock=촉매 슬롯 잠금
+info.thermalexpansion.smelter.toggleUnlock=촉매 슬롯 잠금 해제
 
-#액체운송기(Transposer)
+#액체 운송기(Transposer)
 info.thermalexpansion.transposer.toggleEmpty=전환: 비우기
 info.thermalexpansion.transposer.toggleFill=전환: 채우기
 info.thermalexpansion.transposer.toggleWait=토글
 
-#Insolator
-info.thermalexpansion.insolator.toggleLock=Lock Fertilizer Slot
-info.thermalexpansion.insolator.toggleUnlock=Unlock Fertilizer Slot
+#식물 성장기(Insolator)
+info.thermalexpansion.insolator.toggleLock=비료 슬롯 잠금
+info.thermalexpansion.insolator.toggleUnlock=비료 슬롯 잠금 해제
 
-#Plates
+#플레이트(Plates)
 info.thermalexpansion.distance=범위
 info.thermalexpansion.intensitySignal=신호 세기
 info.thermalexpansion.intensityImpulse=강제 발사
 info.thermalexpansion.duration=지속 시간
+
+#작업대(Workbench)
+info.thermalexpansion.gridClear=조합창 초기화
+info.thermalexpansion.gridSet=도식에 따라 크래프팅 그리드 설정
+info.thermalexpansion.noRecipe=존재하지 않는 조합법
+info.thermalexpansion.noSchematic=도식 없음
+info.thermalexpansion.writeSchematic=도식 작성
 
 #티어별 한글화(Tier Localization)
 info.thermalexpansion.creative=크리에이티브
@@ -147,14 +141,14 @@ info.thermalexpansion.augment.energyProduced=에너지 생산
 info.thermalexpansion.augment.energyUsed=에너지 소모
 info.thermalexpansion.augment.fuelConsumed=연료 소모
 info.thermalexpansion.augment.fuelEnergy=기본 발전량
-info.thermalexpansion.augment.levels.0=이전 단계의 업그레이드가 설치되 있어야합니다.
+info.thermalexpansion.augment.levels.0=이전 단계의 업그레이드가 설치돼 있어야 합니다.
 info.thermalexpansion.augment.levels.1=가장 높은 단계의 강화만 적용됩니다.
-info.thermalexpansion.augment.levels.2=레드스톤 회로가 실치되 있어야합니다.
 info.thermalexpansion.augment.machine.0=요구하는 것:
 info.thermalexpansion.augment.machine.1=단계의 기계가 필요합니다.
-info.thermalexpansion.augment.secondaryChance=추가 부산물 획득
+info.thermalexpansion.augment.requireRS=레드스톤 회로가 설치돼 있어야 합니다.
 info.thermalexpansion.augment.perOperation=Per Operation
 info.thermalexpansion.augment.production=Production
+info.thermalexpansion.augment.secondaryChance=추가 부산물 획득
 info.thermalexpansion.augment.speed=속도
 info.thermalexpansion.augment.upTo=Up to
 info.thermalexpansion.augment.waterConsumed=물 소비량
@@ -168,30 +162,35 @@ info.thermalexpansion.augment.dynamoThrottle.0=다이나모의 에너지출력�
 
 info.thermalexpansion.augment.generalAutoOutput=자동 추출
 info.thermalexpansion.augment.generalAutoOutput.0=기계에서 아이템과 액체를 자동으로 운송할 수 있게 합니다.
+info.thermalexpansion.augment.generalAutoInput=자동 투입
+info.thermalexpansion.augment.generalAutoInput.0=기계에서 아이템과 액체를 자동으로 운송할 수 있게 합니다.
 info.thermalexpansion.augment.generalReconfigSides=측면 재설정
 info.thermalexpansion.augment.generalReconfigSides.0=기계의 입출력 방향 설정을 할 수 있게 합니다.
 info.thermalexpansion.augment.generalRedstoneControl=레드스톤 제어
 info.thermalexpansion.augment.generalRedstoneControl.0=기계를 레드스톤 신호로 제어할 수 있게 합니다.
 
-info.thermalexpansion.augment.machineSecondary=기계: 부산물생성
-info.thermalexpansion.augment.machineSpeed=기계: 작업속도
+info.thermalexpansion.augment.machineSecondary=기계: 부산물 생성
+info.thermalexpansion.augment.machineSpeed=기계: 작업 속도
 
-info.thermalexpansion.augment.machineFurnaceFood=Redstone Furnace: Specialization
-info.thermalexpansion.augment.machineFurnaceFood.0=Increases food output.
-info.thermalexpansion.augment.machineFurnaceFood.1=Can only cook food.
+info.thermalexpansion.augment.machineNull=기계: 추가 제거기
+info.thermalexpansion.augment.machineNull.0=초과 생산되는 부산물을 제거합니다.
 
-info.thermalexpansion.augment.machineExtruderBoost=Igneous Extruder: Batch Size
+info.thermalexpansion.augment.machineFurnaceFood=레드스톤 화로: 전문화
+info.thermalexpansion.augment.machineFurnaceFood.0=요리의 산출량을 늘립니다.
+info.thermalexpansion.augment.machineFurnaceFood.1=요리만 가능합니다.
+
+info.thermalexpansion.augment.machineExtruderBoost=화성암 생성기: 배치 크기
 
 info.thermalexpansion.capacitor.0=활성화 되었을 때 손에 있는 아이템을 충전합니다.
 info.thermalexpansion.capacitor.1=Shift 우클릭으로 활성화합니다.
-info.thermalexpansion.capacitor.2=손에 있는 아이템 충전 중
+info.thermalexpansion.capacitor.2=손에 있는 아이템을 충전하는 중입니다.
 info.thermalexpansion.capacitor.3=Shift 우클릭으로 비활성화합니다.
 info.thermalexpansion.capacitor.4=단축창에 있어야합니다.
-info.thermalexpansion.capacitor.potato=현명한선택입니다! 하지만 재충전을 불가능해요.
+info.thermalexpansion.capacitor.potato=현명한 선택입니다! 하지만 재충전을 불가능해요.
 
-info.thermalexpansion.device.activator=Does more than a tooltip can explain.
-info.thermalexpansion.device.breaker=Breaks blocks. Simple enough.
-info.thermalexpansion.device.nullifier=Removes things from existence.
+info.thermalexpansion.device.activator=툴팁의 설명보다 더 다양한 일을 합니다.
+info.thermalexpansion.device.breaker=블록을 파괴합니다.
+info.thermalexpansion.device.nullifier=존재하는 모든 것을 제거합니다.
 
 info.thermalexpansion.diagram.0=Shift 우클릭으로 설정을 지웁니다.
 info.thermalexpansion.diagram.1=기계에 사용해서 설정을 복사합니다.
@@ -205,11 +204,11 @@ info.thermalexpansion.dynamo.compression=액체 연료와 냉매가 필요합니
 info.thermalexpansion.dynamo.reactant=액체 연료와 고체 촉매가 필요합니다.
 info.thermalexpansion.dynamo.enervation=다양한 물체에서 RF를 추출합니다.
 
-info.thermalexpansion.ender.tesseract.0=Unified point in spacetime.
-info.thermalexpansion.ender.tesseract.1=Can transfer items, fluids, and RF.
+info.thermalexpansion.ender.tesseract.0=시공간 통합의 지점.
+info.thermalexpansion.ender.tesseract.1=아이템, 액체, RF를 전송합니다.
 
-info.thermalexpansion.light.0=Emits light based on redstone signal.
-info.thermalexpansion.light.1=Can be almost any color you wish.
+info.thermalexpansion.light.0=레드스톤 신호 세기에 맞추어 빛을 발합니다.
+info.thermalexpansion.light.1=거의 모든 색상을 표현할 수 있습니다.
 
 info.thermalexpansion.machine.furnace=아이템을 굽습니다.
 info.thermalexpansion.machine.pulverizer=아이템을 분쇄합니다.
@@ -222,13 +221,16 @@ info.thermalexpansion.machine.extruder=뜨거운 액체와 차가운 액체를 �
 info.thermalexpansion.machine.accumulator=주변에서 물을 끌어옵니다.
 info.thermalexpansion.machine.assembler=아이템을 조합합니다.
 info.thermalexpansion.machine.charger=아이템에 RF를 충전합니다.
-info.thermalexpansion.machine.insolator=Infuses plants with 'sun' and RF.
+info.thermalexpansion.machine.insolator=인공적인 햇빛으로 식물을 재배합니다.
 
-info.thermalexpansion.plate.signal=Emits a redstone signal on contact.
-info.thermalexpansion.plate.impulse=Imparts motion to things on contact.
-info.thermalexpansion.plate.translocate=Teleports things on contact.
+info.thermalexpansion.plate.signal=접촉시에 레드스톤 신호를 방출합니다.
+info.thermalexpansion.plate.impulse=접촉한 물체를 이동시킵니다.
+info.thermalexpansion.plate.translocate=접촉한 물체를 순간이동시킵니다.
 
-info.thermalexpansion.workbench=Crafts things. Can use Schematics to craft quickly.
+info.thermalexpansion.rockwool.default=슬래그를 구워서 만들었습니다.
+info.thermalexpansion.rockwool.dyed=다른 석면을 염색해서 만들었습니다.
+
+info.thermalexpansion.workbench=물건을 만듭니다. 도식도를 사용해서 빠른 제작이 가능합니다.
 
 info.thermalexpansion.florb.0=1000 mB 만큼의 액체를 저장합니다.
 info.thermalexpansion.florb.1=1000 mB 만큼의 뜨거운 액체를 저장합니다.
@@ -264,6 +266,7 @@ item.thermalexpansion.augment.dynamoOutput1.name=자속 제어 향상
 item.thermalexpansion.augment.dynamoOutput2.name=극저온 자속 증폭기
 
 item.thermalexpansion.augment.generalAutoOutput.name=내장 서보 매커니즘
+item.thermalexpansion.augment.generalAutoInput.name=내장 깔때기 장치
 item.thermalexpansion.augment.generalReconfigSides.name=내장 모듈러 프레임 워크
 item.thermalexpansion.augment.generalRedstoneControl.name=내장 레드스톤 회로
 
@@ -273,6 +276,8 @@ item.thermalexpansion.augment.machineSecondary2.name=재순환 공정
 item.thermalexpansion.augment.machineSpeed0.name=이차 반응 코일
 item.thermalexpansion.augment.machineSpeed1.name=모듈형 과출력 변속기
 item.thermalexpansion.augment.machineSpeed2.name=시공간 자속 통합
+
+item.thermalexpansion.augment.machineNull.name=널리피케이션 챔버
 
 item.thermalexpansion.augment.machineFurnaceFood.name=트리베션 챔버
 
@@ -318,8 +323,8 @@ item.thermalexpansion.tool.multimeter.name=멀티 미터
 item.thermalexpansion.tool.debugger.name=디버거
 item.thermalexpansion.tool.igniter.name=플럭스 점화기
 item.thermalexpansion.tool.chiller.name=플럭스 냉각기
-item.thermalexpansion.tool.pump.name=FluiVac
-item.thermalexpansion.tool.transfuser.name=Flux Transfuser
+item.thermalexpansion.tool.pump.name=플럭스 펌프
+item.thermalexpansion.tool.transfuser.name=플럭스 주입기
 
 itemGroup.thermalexpansion.creativeTab=써멀 익스팬션
 itemGroup.thermalexpansion.creativeTabBlocks=써멀 익스팬션: 블록
@@ -341,8 +346,14 @@ tab.thermalexpansion.device.activator.1=랜덤할 수도 있고.. 아닐 수도 
 tab.thermalexpansion.device.activator.2=간악하게도 다재다능합니다!
 tab.thermalexpansion.device.breaker.0=모조리 부숴버립니다!
 tab.thermalexpansion.device.breaker.1=기계를 앞에 두지 마세요.
+tab.thermalexpansion.device.collector.0=Picks up items in an area.
+tab.thermalexpansion.device.collector.1=Anything not nailed down is fair game!
+tab.thermalexpansion.device.collector.2=Probably won't steal from your inventory.
 tab.thermalexpansion.device.nullifier.0=모두 공허로 보내버립니다!
 tab.thermalexpansion.device.nullifier.1=액체조차 빠져나올 수 없는 섬뜩한 곳이죠.
+tab.thermalexpansion.device.buffer.0=Stores and transfers items.
+tab.thermalexpansion.device.buffer.1=Better than a Hopper, really!
+tab.thermalexpansion.device.buffer.2=Hold Shift or Ctrl to fine tune quantities.
 
 tab.thermalexpansion.dynamo.0=발전량은 에너지 수요량에 따라 변합니다.
 tab.thermalexpansion.dynamo.steam.0=증기를 이용해서 발전합니다.
@@ -418,6 +429,7 @@ tab.thermalexpansion.strongbox.creative=한가지의 무한한 아이템을 보�
 tab.thermalexpansion.workbench.0=물품을 조합합니다.
 tab.thermalexpansion.workbench.1=조합법을 도식도에 기록하거나 불러옵니다.
 tab.thermalexpansion.workbench.2=작업대에 올려진 기록된 도식도을 Shift 우클릭을 통해 조합을 바로할 수 있습니다.
+tab.thermalexpansion.workbench.creative=Items are optional!
 
 #블록(Blocks)
 tile.thermalexpansion.cache.creative.name=크리에이티브 캐시
@@ -433,10 +445,11 @@ tile.thermalexpansion.cell.hardened.name=경화 에너지 셀
 tile.thermalexpansion.cell.reinforced.name=레드스톤 에너지 셀
 tile.thermalexpansion.cell.resonant.name=공진 에너지 셀
 
-tile.thermalexpansion.device.workbench.name=기계공의 작업대
 tile.thermalexpansion.device.activator.name=자동 활성기
 tile.thermalexpansion.device.breaker.name=지형 파괴기
+tile.thermalexpansion.device.collector.name=TEMP Collector
 tile.thermalexpansion.device.nullifier.name=물체 제거기
+tile.thermalexpansion.device.buffer.name=TEMP Buffer
 
 tile.thermalexpansion.dynamo=다이나모
 tile.thermalexpansion.dynamo.steam.name=증기 다이나모
@@ -519,3 +532,13 @@ tile.thermalexpansion.tank.basic.name=휴대용 탱크
 tile.thermalexpansion.tank.hardened.name=경화 휴대용 탱크
 tile.thermalexpansion.tank.reinforced.name=강화 휴대용 탱크
 tile.thermalexpansion.tank.resonant.name=공진 휴대용 탱크
+
+tile.thermalexpansion.workbench.creative.name=크리에이티브 기계공의 작업대
+tile.thermalexpansion.workbench.basic.name=기계공의 작업대
+tile.thermalexpansion.workbench.hardened.name=경화 기계공의 작업대
+tile.thermalexpansion.workbench.reinforced.name=강화 기계공의 작업대
+tile.thermalexpansion.workbench.resonant.name=공진 기계공의 작업대
+
+#To be removed
+tile.thermalexpansion.device.workbench.name=기계공의 작업대
+info.thermalexpansion.device.workbench=Crafts things, can make use of Schematics.
