@@ -190,7 +190,7 @@ info.thermalexpansion.capacitor.potato=Clever! But not rechargeable.
 info.thermalexpansion.device.activator=Does more than a tooltip can explain.
 info.thermalexpansion.device.breaker=Breaks blocks. Simple enough.
 info.thermalexpansion.device.buffer=Stores and transfers items.
-info.thermalexpansion.device.collector=Acquires items from an area.
+info.thermalexpansion.device.collector=Procures items from an area.
 info.thermalexpansion.device.nullifier=Removes things from existence.
 
 info.thermalexpansion.diagram.0=Use while sneaking to erase.
