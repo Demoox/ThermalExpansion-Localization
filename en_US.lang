@@ -500,6 +500,9 @@ tile.thermalexpansion.plate.frame.name=Plate Frame
 tile.thermalexpansion.plate.impulse.name=Impulse Plate
 tile.thermalexpansion.plate.signal.name=Redstone Plate
 tile.thermalexpansion.plate.translocate.name=Translocation Plate
+tile.thermalexpansion.plate.charge.name=Charge Plate
+tile.thermalexpansion.plate.teleport.name=Teleport Plate
+tile.thermalexpansion.plate.excursion.name=Excursion Plate
 
 tile.thermalexpansion.rockwool.black.name=Black Rockwool
 tile.thermalexpansion.rockwool.red.name=Red Rockwool
