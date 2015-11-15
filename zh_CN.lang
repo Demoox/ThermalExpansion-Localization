@@ -74,12 +74,6 @@ info.thermalexpansion.incSend=增加RF输入通过
 info.thermalexpansion.maxIn=最大输入
 info.thermalexpansion.maxOut=最大输出
 
-#Workbench
-info.thermalexpansion.gridClear=清空合成网格
-info.thermalexpansion.gridSet=根据图纸设置合成网格
-info.thermalexpansion.noRecipe=无合成配方
-info.thermalexpansion.noSchematic=无图纸
-info.thermalexpansion.writeSchematic=写入图纸
 
 #Activator
 info.thermalexpansion.angleLevel=水平瞄准
@@ -120,7 +114,15 @@ info.thermalexpansion.toggleInsolatorUnlock=解锁肥料格
 info.thermalexpansion.distance=距离
 info.thermalexpansion.intensitySignal=信号强度
 info.thermalexpansion.intensityImpulse=弹射力度
-info.thermalexpansion.duration=Duration
+info.thermalexpansion.duration=持续时间
+
+#Workbench
+info.thermalexpansion.gridClear=清空合成网格
+info.thermalexpansion.gridSet=根据图纸设置合成网格
+info.thermalexpansion.noRecipe=无合成配方
+info.thermalexpansion.noSchematic=无图纸
+info.thermalexpansion.writeSchematic=写入图纸
+
 
 #Tier Localization
 info.thermalexpansion.creative=创造
@@ -181,9 +183,10 @@ info.thermalexpansion.capacitor.3=按住潜行(shift)键再次右击即可取消
 info.thermalexpansion.capacitor.4=必须放在快捷栏内.
 info.thermalexpansion.capacitor.potato=机智的马铃薯君,可惜不能再次充能.
 
-info.thermalexpansion.device.workbench=合成物品;可使用蓝图.
 info.thermalexpansion.device.activator=能做的事情比提示文本告诉你的还要多.
 info.thermalexpansion.device.breaker=破坏方块.不能再简单了.
+info.thermalexpansion.device.buffer=储存和转移物品.
+info.thermalexpansion.device.collector=从一片地区取得物品.
 info.thermalexpansion.device.nullifier=彻底移除物品的存在.
 
 info.thermalexpansion.diagram.0=潜行使用以清除.
@@ -225,7 +228,7 @@ info.thermalexpansion.rockwool.default=通过熔炼矿渣获取.
 info.thermalexpansion.rockwool.dyed=通过染色其他石棉获取.
 
 info.thermalexpansion.florb.0=可容纳1000mB大多数类型流体.
-info.thermalexpansion.florb.1=可容纳1000mB大多数类型流体.
+info.thermalexpansion.florb.1=可容纳1000mB大多数类型热流体.
 info.thermalexpansion.florb.2=填充以
 info.thermalexpansion.florb.3=是的,你可以扔掉它.
 info.thermalexpansion.florb.4=这种流体比空气还轻.
@@ -333,16 +336,19 @@ recipe.thermalexpansion.secure=安全保护合成
 tab.thermalexpansion.cell.0=储存RF.
 tab.thermalexpansion.cell.1=按住Shift或Ctrl调节能量控制.
 
-tab.thermalexpansion.device.workbench.0=合成物品!
-tab.thermalexpansion.device.workbench.1=合成配方可以导入或导出图纸.
-tab.thermalexpansion.device.workbench.2=Shift右击图纸以直接合成既存配方.
 tab.thermalexpansion.device.activator.0=它能切片!能切块!能倒东西,也能扔东西!
 tab.thermalexpansion.device.activator.1=它可能是随机的,也可能不是.可能是潜行的,也可能不是.
 tab.thermalexpansion.device.activator.2=看起来就是万能的!
 tab.thermalexpansion.device.breaker.0=破坏一切!
 tab.thermalexpansion.device.breaker.1=请勿将脸靠近设备正面.
+tab.thermalexpansion.device.collector.0=捡起一定区域内的物品.
+tab.thermalexpansion.device.collector.1=什么都不钉牢才是公平博弈!
+tab.thermalexpansion.device.collector.2=很可能不会偷窃你持有的物品. 很可能.
 tab.thermalexpansion.device.nullifier.0=将所有的物质送入虚空!
 tab.thermalexpansion.device.nullifier.1=这是个恐怖的地方,即便流体也难逃于此.
+tab.thermalexpansion.device.buffer.0=储存和转移物品. 可自动输出.
+tab.thermalexpansion.device.buffer.1=比漏斗更好, 真的!
+tab.thermalexpansion.device.buffer.2=按住Shift或Ctrl以精确控制数量.
 
 tab.thermalexpansion.dynamo.0=能源需求不同产能率也不同.
 tab.thermalexpansion.dynamo.steam.0=使用蒸汽生产RF.
@@ -390,7 +396,7 @@ tab.thermalexpansion.machine.accumulator.1=放在水池中会加速.
 tab.thermalexpansion.machine.accumulator.2=别淹死了.
 tab.thermalexpansion.machine.assembler.0=在图纸中储存合成配方.
 tab.thermalexpansion.machine.assembler.1=每个物品消耗20RF.
-tab.thermalexpansion.machine.assembler.2=不,它无法而成.
+tab.thermalexpansion.machine.assembler.2=不,它无法合成.
 tab.thermalexpansion.machine.charger.0=给可储存RF的物品充能.
 tab.thermalexpansion.machine.charger.1=充能速度受物品限制.
 tab.thermalexpansion.machine.charger.2=嗡嗡嗡.
@@ -415,6 +421,11 @@ tab.thermalexpansion.storage.enchant=附魔后可储存更多物品!
 tab.thermalexpansion.strongbox.0=这是个箱子!用于储存物品.唔,很多物品.
 tab.thermalexpansion.strongbox.creative=无限制储存某种物品!
 
+tab.thermalexpansion.workbench.0=合成物品!
+tab.thermalexpansion.workbench.1=合成配方可以导入或导出图纸.
+tab.thermalexpansion.workbench.2=Shift右击图纸以直接合成既存配方.
+tab.thermalexpansion.workbench.creative=物品是可选的!
+
 #Blocks
 tile.thermalexpansion.cache.creative.name=创造储物箱
 tile.thermalexpansion.cache.basic.name=基础储物箱
@@ -429,10 +440,11 @@ tile.thermalexpansion.cell.hardened.name=硬化能量单元
 tile.thermalexpansion.cell.reinforced.name=强化红石能量单元
 tile.thermalexpansion.cell.resonant.name=谐振能量单元
 
-tile.thermalexpansion.device.workbench.name=机械师工作台
 tile.thermalexpansion.device.activator.name=自动执行器
+tile.thermalexpansion.device.collector.name=取物装置
 tile.thermalexpansion.device.breaker.name=方块采掘机
 tile.thermalexpansion.device.nullifier.name=焚毁炉
+tile.thermalexpansion.device.buffer.name=物品分配器
 
 tile.thermalexpansion.dynamo=能源炉
 tile.thermalexpansion.dynamo.steam.name=蒸汽能源炉
@@ -482,6 +494,9 @@ tile.thermalexpansion.plate.frame.name=感应板框架
 tile.thermalexpansion.plate.impulse.name=脉冲感应板
 tile.thermalexpansion.plate.signal.name=红石感应板
 tile.thermalexpansion.plate.translocate.name=移位感应板
+tile.thermalexpansion.plate.charge.name=电荷感应板
+tile.thermalexpansion.plate.teleport.name=传送感应板
+tile.thermalexpansion.plate.excursion.name=冲程感应板
 
 tile.thermalexpansion.rockwool.black.name=黑色石棉
 tile.thermalexpansion.rockwool.red.name=红色石棉
@@ -515,3 +530,9 @@ tile.thermalexpansion.tank.basic.name=便携储罐
 tile.thermalexpansion.tank.hardened.name=硬化便携储罐
 tile.thermalexpansion.tank.reinforced.name=强化便携储罐
 tile.thermalexpansion.tank.resonant.name=谐振便携储罐
+
+tile.thermalexpansion.workbench.creative.name=创造机械师工作台
+tile.thermalexpansion.workbench.basic.name=机械师工作台
+tile.thermalexpansion.workbench.hardened.name=硬化机械师工作台
+tile.thermalexpansion.workbench.reinforced.name=强化机械师工作台
+tile.thermalexpansion.workbench.resonant.name=谐振机械师工作台
