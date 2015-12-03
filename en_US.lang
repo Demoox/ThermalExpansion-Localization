@@ -227,6 +227,12 @@ info.thermalexpansion.machine.insolator=Infuses plants with 'sun' and RF.
 info.thermalexpansion.plate.signal=Emits a redstone signal on contact.
 info.thermalexpansion.plate.impulse=Imparts motion to things on contact.
 info.thermalexpansion.plate.translocate=Teleports things on contact.
+info.thermalexpansion.plate.charge=Charges things on contact.
+# info.thermalexpansion.plate.excursion=Excurses things on contact.
+info.thermalexpansion.plate.teleport=Teleports things long distance on contact.
+
+info.thermalexpansion.plate.charge.playersOnly=Charge only players
+info.thermalexpansion.plate.charge.anything=Charge items and players
 
 info.thermalexpansion.rockwool.default=Created by smelting Slag.
 info.thermalexpansion.rockwool.dyed=Created by dyeing other Rockwool.
