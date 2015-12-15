@@ -28,7 +28,7 @@ achievement.thermalexpansion.assembler.desc=Nein, das wird es nicht herstellen.
 achievement.thermalexpansion.charger=Was ist Flux?
 achievement.thermalexpansion.charger.desc=Flux kennt keine Grenzen. Also pass auf deine Hände auf.
 achievement.thermalexpansion.insolator=Sonne in der Kiste!
-achievement.thermalexpansion.insolator.desc=Definitif nicht Normal.
+achievement.thermalexpansion.insolator.desc=Definitiv nicht Normal.
 
 achievement.thermalexpansion.wrench=Sieht aus wie ein Nagel!
 achievement.thermalexpansion.wrench.desc=Jedes Werkeug ist ein Hammer, wenn du *wirklich* einen Brauchst.
@@ -189,6 +189,8 @@ info.thermalexpansion.capacitor.potato=Clever! Aber nicht wiederaufladbar.
 
 info.thermalexpansion.device.activator=Ist mehr als ein Tooltip erklären kann.
 info.thermalexpansion.device.breaker=Zerstört Blöcke. Ganz einfach.
+info.thermalexpansion.device.buffer=Speichert und transferiert Items.
+info.thermalexpansion.device.collector=Sammelt items aus einem Bereich
 info.thermalexpansion.device.nullifier=Entfernt Dinge aus der Existenz.
 
 info.thermalexpansion.diagram.0=Rechtsklicke schleichend zum löschen.
@@ -223,8 +225,14 @@ info.thermalexpansion.machine.charger=Lädt Items mit RF.
 info.thermalexpansion.machine.insolator=Gießt Pflanzen mit 'Sonne' und RF.
 
 info.thermalexpansion.plate.signal=Erzeugt ein Redstonesignal bei Berührung.
-info.thermalexpansion.plate.impulse=Bewegt Dinge bei Kontakt
-info.thermalexpansion.plate.translocate=Teleportiert Dinge bei Kontakt
+info.thermalexpansion.plate.impulse=Bewegt Dinge bei Kontakt.
+info.thermalexpansion.plate.translocate=Teleportiert Dinge bei Kontakt.
+info.thermalexpansion.plate.charge=Lädt Dinge bei Kontakt.
+# info.thermalexpansion.plate.excursion=Excurses things on contact.
+info.thermalexpansion.plate.teleport=Teleportiert Dinge über weite Entfernungen bei Kontakt.
+ 
+info.thermalexpansion.plate.charge.playersOnly=Lade nur Spieler
+info.thermalexpansion.plate.charge.anything=Lade Items und Spieler
 
 info.thermalexpansion.rockwool.default=Erstellt durch Schmelzschlacke.
 info.thermalexpansion.rockwool.dyed=Erstellt durch Färben anderen Steinwolle.
@@ -345,12 +353,14 @@ tab.thermalexpansion.device.activator.1=Vielleicht ist es zufällig, vielleicht 
 tab.thermalexpansion.device.activator.2=Täuschend vielseitig!
 tab.thermalexpansion.device.breaker.0=Bricht alle Dinge!
 tab.thermalexpansion.device.breaker.1=Schau es niemals direkt an.
+tab.thermalexpansion.device.collector.0=Sammelt Items in einem Bereich auf.
+tab.thermalexpansion.device.collector.1=Alles was nicht festgelegt wurde ist faires Spiel!
+tab.thermalexpansion.device.collector.2=Wird wahrscheinlich nicht aus deinem Inventar stehlen. Wahrscheinlich.
 tab.thermalexpansion.device.nullifier.0=Sendet alles nach /dev/null!
 tab.thermalexpansion.device.nullifier.1=Es ist ein schrecklicher Ort, auch Flüssigkeit können nicht entweichen.
 tab.thermalexpansion.device.buffer.0=Speichert und Transportiert Items.
 tab.thermalexpansion.device.buffer.1=Besser als ein Hopper, wirklich!
 tab.thermalexpansion.device.buffer.2=Halten Shift oder Strg gedrückt, um die Menge genau einzustellen.
-
 
 tab.thermalexpansion.dynamo.0=Energieproduktion hängt vom Energiebedarf ab.
 tab.thermalexpansion.dynamo.steam.0=Erzeugt RF aus Dampf.
@@ -444,6 +454,7 @@ tile.thermalexpansion.cell.resonant.name=Resonante Energiezelle
 
 tile.thermalexpansion.device.activator.name=Autonomer Aktivator
 tile.thermalexpansion.device.breaker.name=Terrainzerschlager
+tile.thermalexpansion.device.collector.name=Sammelapparat
 tile.thermalexpansion.device.nullifier.name=Vernichter
 tile.thermalexpansion.device.buffer.name=
 
@@ -495,6 +506,9 @@ tile.thermalexpansion.plate.frame.name=Plattenrahmen
 tile.thermalexpansion.plate.impulse.name=Impulsplatte
 tile.thermalexpansion.plate.signal.name=Redstoneplatte
 tile.thermalexpansion.plate.translocate.name=Translokationsplatte
+tile.thermalexpansion.plate.charge.name=Ladeplatte
+tile.thermalexpansion.plate.teleport.name=Teleportierplatte
+tile.thermalexpansion.plate.excursion.name=Verschiebungsplatte
 
 tile.thermalexpansion.rockwool.black.name=Schwarze Steinwolle
 tile.thermalexpansion.rockwool.red.name=Rote Steinwolle
