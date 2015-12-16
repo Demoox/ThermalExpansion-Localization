@@ -69,44 +69,44 @@ chat.thermalexpansion.light.4=モード: 常にオフ
 chat.thermalexpansion.light.5=モード: 常にオン
 
 #Cell
-info.thermalexpansion.decRecv=Decrease RF Input by
-info.thermalexpansion.decSend=Decrease RF Output by
-info.thermalexpansion.incRecv=Increase RF Input by
-info.thermalexpansion.incSend=Increase RF Output by
+info.thermalexpansion.decRecv=RF入力の減少:
+info.thermalexpansion.decSend=RF出力の減少:
+info.thermalexpansion.incRecv=RF入力の増加:
+info.thermalexpansion.incSend=RF出力の増加:
 info.thermalexpansion.maxIn=最大入力
 info.thermalexpansion.maxOut=最大出力
 
 #Activator
-info.thermalexpansion.angleLevel=Aim Level
-info.thermalexpansion.angleLow=Aim Low
-info.thermalexpansion.angleHigh=Aim High
-info.thermalexpansion.clickLeft=Left Click
-info.thermalexpansion.clickRight=Right Click
-info.thermalexpansion.slotsFirst=First Slot Only
-info.thermalexpansion.slotsRand=Randomly Use Items
-info.thermalexpansion.slotsRR=Round Robin Item Use
-info.thermalexpansion.sneakOff=Not Sneaking
-info.thermalexpansion.sneakOn=Sneaking
+info.thermalexpansion.angleLevel=クリックの高さ
+info.thermalexpansion.angleLow=低め
+info.thermalexpansion.angleHigh=高め
+info.thermalexpansion.clickLeft=左クリック
+info.thermalexpansion.clickRight=右クリック
+info.thermalexpansion.slotsFirst=第１スロットのみ
+info.thermalexpansion.slotsRand=ランダム
+info.thermalexpansion.slotsRR=順番に使用
+info.thermalexpansion.sneakOff=スニークなし
+info.thermalexpansion.sneakOn=スニーク
 
 #Buffer
-info.thermalexpansion.buffer.disableInput=Disable Input
-info.thermalexpansion.buffer.disableOutput=Disable Output
-info.thermalexpansion.buffer.enableInput=Enable Input
-info.thermalexpansion.buffer.enableOutput=Enable Output
+info.thermalexpansion.buffer.disableInput=入力無効
+info.thermalexpansion.buffer.disableOutput=出力無効
+info.thermalexpansion.buffer.enableInput=入力有効
+info.thermalexpansion.buffer.enableOutput=出力有効
 
 #Tesseract
-info.thermalexpansion.inactive=Inactive
-info.thermalexpansion.modeBlocked=Blocked
-info.thermalexpansion.modeEnergy=Energy Mode
-info.thermalexpansion.modeFluid=Fluid Mode
-info.thermalexpansion.modeItem=Item Mode
-info.thermalexpansion.modeRecv=Receive Only
-info.thermalexpansion.modeSend=Send Only
-info.thermalexpansion.modeSendRecv=Send/Receive
+info.thermalexpansion.inactive=有効
+info.thermalexpansion.modeBlocked=ブロック
+info.thermalexpansion.modeEnergy=エネルギー送受信
+info.thermalexpansion.modeFluid=液体送受信
+info.thermalexpansion.modeItem=アイテム送受信
+info.thermalexpansion.modeRecv=受信のみ
+info.thermalexpansion.modeSend=送信のみ
+info.thermalexpansion.modeSendRecv=送受信
 
 #Smelter
-info.thermalexpansion.smelter.toggleLock=Lock Flux Slot
-info.thermalexpansion.smelter.toggleUnlock=Unlock Flux Slot
+info.thermalexpansion.smelter.toggleLock=融剤スロットの固定
+info.thermalexpansion.smelter.toggleUnlock=融剤スロットの解放
 
 #Transposer
 info.thermalexpansion.transposer.toggleEmpty=Toggle: Empty
@@ -114,73 +114,73 @@ info.thermalexpansion.transposer.toggleFill=Toggle: Fill
 info.thermalexpansion.transposer.toggleWait=Toggled
 
 #Insolator
-info.thermalexpansion.insolator.toggleLock=Lock Fertilizer Slot
-info.thermalexpansion.insolator.toggleUnlock=Unlock Fertilizer Slot
+info.thermalexpansion.insolator.toggleLock=肥料スロットの固定
+info.thermalexpansion.insolator.toggleUnlock=肥料スロットの解放
 
 #Plates
-info.thermalexpansion.distance=Distance
-info.thermalexpansion.intensitySignal=Signal Strength
-info.thermalexpansion.intensityImpulse=Launch Force
-info.thermalexpansion.duration=Duration
+info.thermalexpansion.distance=距離
+info.thermalexpansion.intensitySignal=信号の強度
+info.thermalexpansion.intensityImpulse=射出強度
+info.thermalexpansion.duration=持続時間
 
 #Workbench
-info.thermalexpansion.gridClear=Clear Crafting Grid
-info.thermalexpansion.gridSet=Set Crafting Grid From Schematic
-info.thermalexpansion.noRecipe=No Recipe
-info.thermalexpansion.noSchematic=No Schematic
-info.thermalexpansion.writeSchematic=Write Schematic
+info.thermalexpansion.gridClear=グリッドのクリア
+info.thermalexpansion.gridSet=設計図からインポート
+info.thermalexpansion.noRecipe=レシピ無し
+info.thermalexpansion.noSchematic=設計図なし
+info.thermalexpansion.writeSchematic=設計図の作成
 
 #Tier Localization
-info.thermalexpansion.creative=Creative
-info.thermalexpansion.basic=Basic
-info.thermalexpansion.hardened=Hardened
-info.thermalexpansion.reinforced=Reinforced
-info.thermalexpansion.resonant=Resonant
+info.thermalexpansion.creative=クリエイティブ
+info.thermalexpansion.basic=基本
+info.thermalexpansion.hardened=硬化
+info.thermalexpansion.reinforced=増強
+info.thermalexpansion.resonant=共振
 
-info.thermalexpansion.augment=Augment
-info.thermalexpansion.augment.energyProduced=Energy Produced
-info.thermalexpansion.augment.energyUsed=Energy Used
-info.thermalexpansion.augment.fuelConsumed=Fuel Consumed
-info.thermalexpansion.augment.fuelEnergy=Base Fuel Energy
-info.thermalexpansion.augment.levels.0=Requires previous levels to be installed.
-info.thermalexpansion.augment.levels.1=Highest Level Augment is used.
-info.thermalexpansion.augment.machine.0=Requires a
-info.thermalexpansion.augment.machine.1=Machine
-info.thermalexpansion.augment.requireRS=Requires Redstone Control to be installed.
-info.thermalexpansion.augment.perOperation=Per Operation
-info.thermalexpansion.augment.production=Production
-info.thermalexpansion.augment.secondaryChance=Secondary Chance
-info.thermalexpansion.augment.speed=Speed
-info.thermalexpansion.augment.upTo=Up to
-info.thermalexpansion.augment.waterConsumed=Water Consumed
+info.thermalexpansion.augment=オーグメント
+info.thermalexpansion.augment.energyProduced=エネルギー生産
+info.thermalexpansion.augment.energyUsed=エネルギー消費
+info.thermalexpansion.augment.fuelConsumed=燃料消費
+info.thermalexpansion.augment.fuelEnergy=燃料変換効率
+info.thermalexpansion.augment.levels.0=前段階のレベルのオーグメントが必要です。
+info.thermalexpansion.augment.levels.1=最も高いレベルのオーグメントが使用されます。
+info.thermalexpansion.augment.machine.0=要求：
+info.thermalexpansion.augment.machine.1=マシン
+info.thermalexpansion.augment.requireRS=レッドストーン制御オーグメントが必要です。
+info.thermalexpansion.augment.perOperation=/1処理
+info.thermalexpansion.augment.production=生産
+info.thermalexpansion.augment.secondaryChance=二次生成物の確率
+info.thermalexpansion.augment.speed=速度
+info.thermalexpansion.augment.upTo=増加：
+info.thermalexpansion.augment.waterConsumed=水の消費
 
-info.thermalexpansion.augment.dynamoCoilDuct=Dynamo: Side Accessibility
-info.thermalexpansion.augment.dynamoCoilDuct.0=Allows insertion and extraction through the coil of a dynamo.
-info.thermalexpansion.augment.dynamoEfficiency=Dynamo: Fuel Efficiency
-info.thermalexpansion.augment.dynamoOutput=Dynamo: Power Output
-info.thermalexpansion.augment.dynamoThrottle=Dynamo: Advanced Throttling
-info.thermalexpansion.augment.dynamoThrottle.0=Sets minimum dynamo output to 0 RF/t.
+info.thermalexpansion.augment.dynamoCoilDuct=ダイナモ：側面接続性
+info.thermalexpansion.augment.dynamoCoilDuct.0=ダイナモのコイルからの搬入を可能にします。
+info.thermalexpansion.augment.dynamoEfficiency=ダイナモ：燃料効率
+info.thermalexpansion.augment.dynamoOutput=ダイナモ: エネルギー生産
+info.thermalexpansion.augment.dynamoThrottle=ダイナモ：改良制御
+info.thermalexpansion.augment.dynamoThrottle.0=ダイナモの最低出力を0RF/tに変更します。
 
-info.thermalexpansion.augment.generalAutoOutput=Automated Output
-info.thermalexpansion.augment.generalAutoOutput.0=Allows for automatic transfer out of a device.
-info.thermalexpansion.augment.generalAutoInput=Automated Input
-info.thermalexpansion.augment.generalAutoInput.0=Allows for automatic transfer into a device.
-info.thermalexpansion.augment.generalReconfigSides=Reconfigurable Sides
-info.thermalexpansion.augment.generalReconfigSides.0=Allows for the sides of a device to be reconfigured.
-info.thermalexpansion.augment.generalRedstoneControl=Redstone Control
-info.thermalexpansion.augment.generalRedstoneControl.0=Allows for redstone control settings to be utilized on a device.
+info.thermalexpansion.augment.generalAutoOutput=自動搬出
+info.thermalexpansion.augment.generalAutoOutput.0=外部への自動搬出を可能にします。
+info.thermalexpansion.augment.generalAutoInput=自動搬入
+info.thermalexpansion.augment.generalAutoInput.0=外部からの自動搬入を可能にします。
+info.thermalexpansion.augment.generalReconfigSides=側面の構成設定可能性
+info.thermalexpansion.augment.generalReconfigSides.0=側面の設定の任意の変更を可能にします。
+info.thermalexpansion.augment.generalRedstoneControl=レッドストーン制御
+info.thermalexpansion.augment.generalRedstoneControl.0=レッドストーンによる稼働制御を可能にします。
 
-info.thermalexpansion.augment.machineSecondary=Machine: Secondary Output
-info.thermalexpansion.augment.machineSpeed=Machine: Processing Speed
+info.thermalexpansion.augment.machineSecondary=マシン：副産物
+info.thermalexpansion.augment.machineSpeed=マシン：処理速度
 
-info.thermalexpansion.augment.machineNull=Machine: Secondary Nullifier
-info.thermalexpansion.augment.machineNull.0=Destroys excess secondary outputs.
+info.thermalexpansion.augment.machineNull=マシン：消滅室
+info.thermalexpansion.augment.machineNull.0=過剰な副産物を消します。
 
-info.thermalexpansion.augment.machineFurnaceFood=Redstone Furnace: Specialization
-info.thermalexpansion.augment.machineFurnaceFood.0=Increases food output.
-info.thermalexpansion.augment.machineFurnaceFood.1=Can only cook food.
+info.thermalexpansion.augment.machineFurnaceFood=レッドストーンかまど：特殊化
+info.thermalexpansion.augment.machineFurnaceFood.0=食べ物の生産を増加させます。
+info.thermalexpansion.augment.machineFurnaceFood.1=食べ物のみを扱います。
 
-info.thermalexpansion.augment.machineExtruderBoost=Igneous Extruder: Batch Size
+info.thermalexpansion.augment.machineExtruderBoost=火成成形機：生産量
 
 info.thermalexpansion.capacitor.0=Activate to charge held items.
 info.thermalexpansion.capacitor.1=Use while sneaking to activate.
@@ -265,75 +265,75 @@ info.thermalexpansion.storage.enchant=Can be enchanted to hold more items.
 info.thermalexpansion.wrench=Wrench while sneaking to dismantle.
 
 #Items
-item.thermalexpansion.augment.dynamoCoilDuct.name=Transmission Coil Ducting
-item.thermalexpansion.augment.dynamoThrottle.name=Excitation Field Limiter
-item.thermalexpansion.augment.dynamoEfficiency0.name=Secondary Gearbox
-item.thermalexpansion.augment.dynamoEfficiency1.name=Flux Linkage Optimization
-item.thermalexpansion.augment.dynamoEfficiency2.name=CryoCoil Regulator
-item.thermalexpansion.augment.dynamoOutput0.name=Secondary Transmission Coil
-item.thermalexpansion.augment.dynamoOutput1.name=Flux Modulation Booster
-item.thermalexpansion.augment.dynamoOutput2.name=CryoCoil Flux Amplifier
+item.thermalexpansion.augment.dynamoCoilDuct.name=電送コイル配管
+item.thermalexpansion.augment.dynamoThrottle.name=励起場リミッタ
+item.thermalexpansion.augment.dynamoEfficiency0.name=第二ギアボックス
+item.thermalexpansion.augment.dynamoEfficiency1.name=フラックス結合最適化
+item.thermalexpansion.augment.dynamoEfficiency2.name=クリオコイル調節器
+item.thermalexpansion.augment.dynamoOutput0.name=第二電送コイル
+item.thermalexpansion.augment.dynamoOutput1.name=フラックス電送ブースター
+item.thermalexpansion.augment.dynamoOutput2.name=クリオコイルフラックス増幅器
 
-item.thermalexpansion.augment.generalAutoOutput.name=Integrated Servo Mechanism
-item.thermalexpansion.augment.generalAutoInput.name=Integrated Hopper Apparatus
-item.thermalexpansion.augment.generalReconfigSides.name=Integrated Modular Framework
-item.thermalexpansion.augment.generalRedstoneControl.name=Integrated Redstone Circuit
+item.thermalexpansion.augment.generalAutoOutput.name=統合自動制御機構
+item.thermalexpansion.augment.generalAutoInput.name=統合ホッパー
+item.thermalexpansion.augment.generalReconfigSides.name=統合モジュールフレームワーク
+item.thermalexpansion.augment.generalRedstoneControl.name=統合レッドストーン回路
 
-item.thermalexpansion.augment.machineSecondary0.name=Secondary Sieve
-item.thermalexpansion.augment.machineSecondary1.name=Stabilized Frame
-item.thermalexpansion.augment.machineSecondary2.name=GyroServo Feedback
-item.thermalexpansion.augment.machineSpeed0.name=Secondary Reception Coil
-item.thermalexpansion.augment.machineSpeed1.name=Overclocked Modular Gearbox
-item.thermalexpansion.augment.machineSpeed2.name=Space-Time Flux Unifier
+item.thermalexpansion.augment.machineSecondary0.name=第二フィルター
+item.thermalexpansion.augment.machineSecondary1.name=安定化フレーム
+item.thermalexpansion.augment.machineSecondary2.name=ジャイロサーボフィードバック
+item.thermalexpansion.augment.machineSpeed0.name=第二受電コイル
+item.thermalexpansion.augment.machineSpeed1.name=オーバークロックギアユニット
+item.thermalexpansion.augment.machineSpeed2.name=時空間フラックス統合器
 
-item.thermalexpansion.augment.machineNull.name=Nullification Chamber
+item.thermalexpansion.augment.machineNull.name=消滅室
 
-item.thermalexpansion.augment.machineFurnaceFood.name=Trivection Chamber
+item.thermalexpansion.augment.machineFurnaceFood.name=トリベクション室
 
-item.thermalexpansion.augment.machineExtruderBoost0.name=Accelerated Extrusion
-item.thermalexpansion.augment.machineExtruderBoost1.name=Igneous Catalyst
-item.thermalexpansion.augment.machineExtruderBoost2.name=Pyroclastic Generation
+item.thermalexpansion.augment.machineExtruderBoost0.name=加速成形
+item.thermalexpansion.augment.machineExtruderBoost1.name=火成触媒
+item.thermalexpansion.augment.machineExtruderBoost2.name=高熱砕屑生成
 
-item.thermalexpansion.capacitor.creative.name=Creative Flux Capacitor
-item.thermalexpansion.capacitor.potato.name=Tuberous Flux Capacitor
-item.thermalexpansion.capacitor.basic.name=Leadstone Flux Capacitor
-item.thermalexpansion.capacitor.hardened.name=Hardened Flux Capacitor
-item.thermalexpansion.capacitor.reinforced.name=Redstone Flux Capacitor
-item.thermalexpansion.capacitor.resonant.name=Resonant Flux Capacitor
+item.thermalexpansion.capacitor.creative.name=クリエイティブフラックスキャパシタ
+item.thermalexpansion.capacitor.potato.name=ポテト電池
+item.thermalexpansion.capacitor.basic.name=鉛石フラックスキャパシタ
+item.thermalexpansion.capacitor.hardened.name=硬化フラックスキャパシタ
+item.thermalexpansion.capacitor.reinforced.name=レッドストーンフラックスキャパシタ
+item.thermalexpansion.capacitor.resonant.name=共振フラックスキャパシタ
 
-item.thermalexpansion.diagram.schematic.name=Schematic
-item.thermalexpansion.diagram.redprint.name=Redprint
+item.thermalexpansion.diagram.schematic.name=設計図
+item.thermalexpansion.diagram.redprint.name=レッドプリント
 
-item.thermalexpansion.florb.florb.name=Florb
-item.thermalexpansion.florb.florbMagmatic.name=Magmatic Florb
+item.thermalexpansion.florb.florb.name=フローブ
+item.thermalexpansion.florb.florbMagmatic.name=耐熱フローブ
 
-item.thermalexpansion.material.pneumaticServo.name=Pneumatic Servo
-item.thermalexpansion.material.powerCoilGold.name=Redstone Reception Coil
-item.thermalexpansion.material.powerCoilSilver.name=Redstone Transmission Coil
-item.thermalexpansion.material.powerCoilElectrum.name=Redstone Conductance Coil
-item.thermalexpansion.material.lock.name=Signalum Security Lock
+item.thermalexpansion.material.pneumaticServo.name=空圧制御機構
+item.thermalexpansion.material.powerCoilGold.name=レッドストーン受信コイル
+item.thermalexpansion.material.powerCoilSilver.name=レッドストーン送信コイル
+item.thermalexpansion.material.powerCoilElectrum.name=レッドストーン伝導コイル
+item.thermalexpansion.material.lock.name=シグナルム安全錠
 
-item.thermalexpansion.material.dustWood.name=Sawdust
-item.thermalexpansion.material.dustWoodCompressed.name=Compressed Sawdust
-item.thermalexpansion.material.slag.name=Slag
-item.thermalexpansion.material.slagRich.name=Rich Slag
-item.thermalexpansion.material.fertilizer.name=Phyto-Gro
-item.thermalexpansion.material.fertilizerRich.name=Rich Phyto-Gro
+item.thermalexpansion.material.dustWood.name=おがくず
+item.thermalexpansion.material.dustWoodCompressed.name=圧縮したおがくず
+item.thermalexpansion.material.slag.name=鉱滓
+item.thermalexpansion.material.slagRich.name=上質な鉱滓
+item.thermalexpansion.material.fertilizer.name=§2フィトグロ§r
+item.thermalexpansion.material.fertilizerRich.name=§6§l§n§oリッチ§r §aフィトグロ§r
 
-item.thermalexpansion.satchel.creative.name=Creative Satchel
-item.thermalexpansion.satchel.basic.name=Satchel
-item.thermalexpansion.satchel.hardened.name=Hardened Satchel
-item.thermalexpansion.satchel.reinforced.name=Reinforced Satchel
-item.thermalexpansion.satchel.resonant.name=Resonant Satchel
+item.thermalexpansion.satchel.creative.name=クリエイティブサッチェル
+item.thermalexpansion.satchel.basic.name=サッチェル
+item.thermalexpansion.satchel.hardened.name=硬化サッチェル
+item.thermalexpansion.satchel.reinforced.name=増強サッチェル
+item.thermalexpansion.satchel.resonant.name=共振サッチェル
 
-item.thermalexpansion.tool.wrench.name=Crescent Hammer
-item.thermalexpansion.tool.battleWrench.name=BattleWrench
-item.thermalexpansion.tool.multimeter.name=Multimeter
+item.thermalexpansion.tool.wrench.name=モンキレンチ
+item.thermalexpansion.tool.battleWrench.name=バトルレンチ
+item.thermalexpansion.tool.multimeter.name=マルチメータ
 item.thermalexpansion.tool.debugger.name=Debugger
-item.thermalexpansion.tool.igniter.name=Flux Igniter
-item.thermalexpansion.tool.chiller.name=Flux Chiller
-item.thermalexpansion.tool.pump.name=FluiVac
-item.thermalexpansion.tool.transfuser.name=Flux Transfuser
+item.thermalexpansion.tool.igniter.name=電子着火器
+item.thermalexpansion.tool.chiller.name=電動冷却器
+item.thermalexpansion.tool.pump.name=§b§oフルイバック§r
+item.thermalexpansion.tool.transfuser.name=携帯電力注入器
 
 itemGroup.thermalexpansion.creativeTab=Thermal Expansion
 itemGroup.thermalexpansion.creativeTabBlocks=Thermal Expansion: Blocks
@@ -347,34 +347,34 @@ recipe.thermalexpansion.upgrade=Upgrade Crafting
 recipe.thermalexpansion.secure=Security Crafting
 
 #Info Tabs
-tab.thermalexpansion.cell.0=Stores Redstone Flux.
-tab.thermalexpansion.cell.1=Hold Shift or Ctrl to fine tune energy control.
+tab.thermalexpansion.cell.0=RFの貯蔵
+tab.thermalexpansion.cell.1=ShiftキーもしくはCtrlキーでより詳細な設定ができます。
 
-tab.thermalexpansion.device.activator.0=It slices! It dices! It pours things, it throws things!
-tab.thermalexpansion.device.activator.1=Maybe it's random, maybe it isn't. Maybe it's sneaky, maybe not.
-tab.thermalexpansion.device.activator.2=Deceptively versatile!
-tab.thermalexpansion.device.breaker.0=Breaks all the things!
-tab.thermalexpansion.device.breaker.1=Keep face away from front of device.
-tab.thermalexpansion.device.collector.0=Picks up items in an area.
-tab.thermalexpansion.device.collector.1=Anything not nailed down is fair game!
-tab.thermalexpansion.device.collector.2=Probably won't steal from your inventory. Probably.
-tab.thermalexpansion.device.nullifier.0=Sends all the things to /dev/null!
-tab.thermalexpansion.device.nullifier.1=It is a horrible place; even fluids cannot escape.
-tab.thermalexpansion.device.buffer.0=Stores and transfers items. Can automatically extract.
-tab.thermalexpansion.device.buffer.1=Better than a Hopper, really!
-tab.thermalexpansion.device.buffer.2=Hold Shift or Ctrl to fine tune quantities.
+tab.thermalexpansion.device.activator.0=切る！刻む！注ぐ！投げる！
+tab.thermalexpansion.device.activator.1=乱雑かもしれないし、そうじゃないかもしれない。  コソコソしてるかもしれないし、そうじゃないかもしれない。
+tab.thermalexpansion.device.activator.2=見かけによらず多芸だ。
+tab.thermalexpansion.device.breaker.0=すべてをぶっ壊せ！
+tab.thermalexpansion.device.breaker.1=顔を装置の前に近づけないでね。
+tab.thermalexpansion.device.collector.0=エリア内のアイテムを集めます。
+tab.thermalexpansion.device.collector.1=公平なゲームとはすべてが固定されてないことだ。
+tab.thermalexpansion.device.collector.2=多分あなたの持ち物は取らないよ！きっと
+tab.thermalexpansion.device.nullifier.0=なんでも "/dev/null" 送り
+tab.thermalexpansion.device.nullifier.1=流体すら逃さんとても怖い場所だ。
+tab.thermalexpansion.device.buffer.0=アイテムを貯めて送れる。自動搬出できる。
+tab.thermalexpansion.device.buffer.1=まさしくホッパーよりいい！
+tab.thermalexpansion.device.buffer.2=ShiftキーもしくはCtrlキーでより詳細な設定ができます。
 
-tab.thermalexpansion.dynamo.0=Generation rate varies according to energy demand.
-tab.thermalexpansion.dynamo.steam.0=Generates Redstone Flux using Steam.
-tab.thermalexpansion.dynamo.steam.1=Solid Fuels and Water can be used to generate Steam.
-tab.thermalexpansion.dynamo.magmatic.0=Generates Redstone Flux using extremely hot fluids.
-tab.thermalexpansion.dynamo.compression.0=Generates Redstone Flux using fluid fuels and coolants.
-tab.thermalexpansion.dynamo.reactant.0=Generates Redstone Flux using alchemical reactions.
-tab.thermalexpansion.dynamo.reactant.1=A solid reactant and a fluid fuel must be provided.
-tab.thermalexpansion.dynamo.enervation.0=Extracts Redstone Flux directly from natural sources or from objects which store it.
+tab.thermalexpansion.dynamo.0=エネルギーの要求によってエネルギー生成率は変わります。
+tab.thermalexpansion.dynamo.steam.0=蒸気を使ってRFを生産します。
+tab.thermalexpansion.dynamo.steam.1=固形燃料と水で蒸気を生み出します。
+tab.thermalexpansion.dynamo.magmatic.0=とても熱い液体でRFを生産します。
+tab.thermalexpansion.dynamo.compression.0=液体燃料と冷却液でRFを生産します。
+tab.thermalexpansion.dynamo.reactant.0=アルケミカルな反応でRFを生産します。
+tab.thermalexpansion.dynamo.reactant.1=個体の反応剤と液体の燃料の供給が必須です。
+tab.thermalexpansion.dynamo.enervation.0=RFを自然な原料もしくは蓄電機から吸い出します。
 
-tab.thermalexpansion.ender.tesseract.0=Use these to instantly transport things across vast distances or across dimensions.
-tab.thermalexpansion.ender.tesseract.1=Tune the Ender Frequency to determine links.
+tab.thermalexpansion.ender.tesseract.0=遥かに遠いところやディメンションをまたいだところに、瞬く間に転送します。
+tab.thermalexpansion.ender.tesseract.1=接続を確立するためにエンダー周波数を設定してください。
 
 tab.thermalexpansion.light.0=Highly configurable light, redstone sensitive.
 tab.thermalexpansion.light.1=Color and mode may be adjusted with sliders.
@@ -441,116 +441,116 @@ tab.thermalexpansion.workbench.2=Shift + Right Click on a Schematic to craft the
 tab.thermalexpansion.workbench.creative=Items are optional!
 
 #Blocks
-tile.thermalexpansion.cache.creative.name=Creative Cache
-tile.thermalexpansion.cache.basic.name=Cache
-tile.thermalexpansion.cache.hardened.name=Hardened Cache
-tile.thermalexpansion.cache.reinforced.name=Reinforced Cache
-tile.thermalexpansion.cache.resonant.name=Resonant Cache
+tile.thermalexpansion.cache.creative.name=クリエイティブキャッシュ
+tile.thermalexpansion.cache.basic.name=キャッシュ
+tile.thermalexpansion.cache.hardened.name=硬化キャッシュ
+tile.thermalexpansion.cache.reinforced.name=増強キャッシュ
+tile.thermalexpansion.cache.resonant.name=共振キャッシュ
 
-tile.thermalexpansion.cell=Energy Cell
-tile.thermalexpansion.cell.creative.name=Creative Energy Cell
-tile.thermalexpansion.cell.basic.name=Leadstone Energy Cell
-tile.thermalexpansion.cell.hardened.name=Hardened Energy Cell
-tile.thermalexpansion.cell.reinforced.name=Redstone Energy Cell
-tile.thermalexpansion.cell.resonant.name=Resonant Energy Cell
+tile.thermalexpansion.cell=エネルギーセル
+tile.thermalexpansion.cell.creative.name=クリエイティブエネルギーセル
+tile.thermalexpansion.cell.basic.name=鉛石エネルギーセル
+tile.thermalexpansion.cell.hardened.name=硬化エネルギーセル
+tile.thermalexpansion.cell.reinforced.name=レッドストーンエネルギーセル
+tile.thermalexpansion.cell.resonant.name=共振エネルギーセル
 
-tile.thermalexpansion.device.activator.name=Autonomous Activator
-tile.thermalexpansion.device.breaker.name=Terrain Smasher
-tile.thermalexpansion.device.collector.name=Acquisition Apparatus
-tile.thermalexpansion.device.nullifier.name=Nullifier
-tile.thermalexpansion.device.buffer.name=Item Allocator
+tile.thermalexpansion.device.activator.name=自立アクティベータ
+tile.thermalexpansion.device.breaker.name=地形粉砕機
+tile.thermalexpansion.device.collector.name=アイテム蒐集器
+tile.thermalexpansion.device.nullifier.name=消滅器
+tile.thermalexpansion.device.buffer.name=アイテム分配器
 
-tile.thermalexpansion.dynamo=Dynamo
-tile.thermalexpansion.dynamo.steam.name=Steam Dynamo
-tile.thermalexpansion.dynamo.magmatic.name=Magmatic Dynamo
-tile.thermalexpansion.dynamo.compression.name=Compression Dynamo
-tile.thermalexpansion.dynamo.reactant.name=Reactant Dynamo
-tile.thermalexpansion.dynamo.enervation.name=Enervation Dynamo
+tile.thermalexpansion.dynamo=ダイナモ
+tile.thermalexpansion.dynamo.steam.name=蒸気ダイナモ
+tile.thermalexpansion.dynamo.magmatic.name=溶岩ダイナモ
+tile.thermalexpansion.dynamo.compression.name=圧縮ダイナモ
+tile.thermalexpansion.dynamo.reactant.name=反応ダイナモ
+tile.thermalexpansion.dynamo.enervation.name=エネルギーダイナモ
 
-tile.thermalexpansion.ender.tesseract.name=Tesseract
+tile.thermalexpansion.ender.tesseract.name=テッセラクト
 
-tile.thermalexpansion.frame.machineBasic.name=Machine Frame (Basic)
-tile.thermalexpansion.frame.machineHardened.name=Machine Frame (Hardened)
-tile.thermalexpansion.frame.machineReinforced.name=Machine Frame (Reinforced)
-tile.thermalexpansion.frame.machineResonant.name=Machine Frame (Resonant)
-tile.thermalexpansion.frame.cellBasic.name=Leadstone Energy Cell Frame
-tile.thermalexpansion.frame.cellHardened.name=Hardened Energy Cell Frame
-tile.thermalexpansion.frame.cellReinforcedEmpty.name=Redstone Energy Cell Frame (Empty)
-tile.thermalexpansion.frame.cellReinforcedFull.name=Redstone Energy Cell Frame (Full)
-tile.thermalexpansion.frame.cellResonantEmpty.name=Resonant Energy Cell Frame (Empty)
-tile.thermalexpansion.frame.cellResonantFull.name=Resonant Energy Cell Frame (Full)
-tile.thermalexpansion.frame.tesseractEmpty.name=Tesseract Frame (Empty)
-tile.thermalexpansion.frame.tesseractFull.name=Tesseract Frame (Full)
-tile.thermalexpansion.frame.illuminator.name=Illuminator Frame
+tile.thermalexpansion.frame.machineBasic.name=基本マシンフレーム
+tile.thermalexpansion.frame.machineHardened.name=硬化マシンフレーム
+tile.thermalexpansion.frame.machineReinforced.name=増強マシンフレーム
+tile.thermalexpansion.frame.machineResonant.name=共振マシンフレーム
+tile.thermalexpansion.frame.cellBasic.name=鉛石エネルギーセルフレーム
+tile.thermalexpansion.frame.cellHardened.name=硬化エネルギーセルフレーム
+tile.thermalexpansion.frame.cellReinforcedEmpty.name=空のレッドストーンエネルギーセルフレーム
+tile.thermalexpansion.frame.cellReinforcedFull.name=満たされたレッドストーンエネルギーセルフレーム
+tile.thermalexpansion.frame.cellResonantEmpty.name=空の共振エネルギーセルフレーム
+tile.thermalexpansion.frame.cellResonantFull.name=満たされた共振エネルギーセルフレーム
+tile.thermalexpansion.frame.tesseractEmpty.name=空のテッセラクトフレーム
+tile.thermalexpansion.frame.tesseractFull.name=満たされたテッセラクトフレーム
+tile.thermalexpansion.frame.illuminator.name=イルミネータフレーム
 
-tile.thermalexpansion.glass.name=Hardened Glass
-tile.thermalexpansion.glassLumium.name=Hardened Lumium Glass
+tile.thermalexpansion.glass.name=強化ガラス
+tile.thermalexpansion.glassLumium.name=強化ルミウムガラス
 
 tile.thermalexpansion.light.name=6-Mode Lighting
-tile.thermalexpansion.light.illuminator.name=Glowstone Illuminator
-tile.thermalexpansion.light.lampLumiumRadiant.name=Radiant Lumium Lamp
-tile.thermalexpansion.light.lampLumium.name=Lumium Lamp
+tile.thermalexpansion.light.illuminator.name=グロウストーンイルミネータ
+tile.thermalexpansion.light.lampLumiumRadiant.name=放射ルミウム灯
+tile.thermalexpansion.light.lampLumium.name=ルミウム灯
 
-tile.thermalexpansion.machine.furnace.name=Redstone Furnace
-tile.thermalexpansion.machine.pulverizer.name=Pulverizer
-tile.thermalexpansion.machine.sawmill.name=Sawmill
-tile.thermalexpansion.machine.smelter.name=Induction Smelter
-tile.thermalexpansion.machine.crucible.name=Magma Crucible
-tile.thermalexpansion.machine.transposer.name=Fluid Transposer
-tile.thermalexpansion.machine.precipitator.name=Glacial Precipitator
-tile.thermalexpansion.machine.extruder.name=Igneous Extruder
-tile.thermalexpansion.machine.accumulator.name=Aqueous Accumulator
-tile.thermalexpansion.machine.assembler.name=Cyclic Assembler
-tile.thermalexpansion.machine.charger.name=Energetic Infuser
-tile.thermalexpansion.machine.insolator.name=Phytogenic Insolator
+tile.thermalexpansion.machine.furnace.name=レッドストーンかまど
+tile.thermalexpansion.machine.pulverizer.name=粉砕機
+tile.thermalexpansion.machine.sawmill.name=製材機
+tile.thermalexpansion.machine.smelter.name=誘導加熱炉
+tile.thermalexpansion.machine.crucible.name=溶岩るつぼ
+tile.thermalexpansion.machine.transposer.name=液体転置機
+tile.thermalexpansion.machine.precipitator.name=氷温凝結器
+tile.thermalexpansion.machine.extruder.name=火成成形機
+tile.thermalexpansion.machine.accumulator.name=水蒐集機
+tile.thermalexpansion.machine.assembler.name=循環組み立て記
+tile.thermalexpansion.machine.charger.name=エネルギー充填機
+tile.thermalexpansion.machine.insolator.name=日光照射成長促進機
 
-tile.thermalexpansion.plate.frame.name=Plate Frame
-tile.thermalexpansion.plate.impulse.name=Impulse Plate
-tile.thermalexpansion.plate.signal.name=Redstone Plate
-tile.thermalexpansion.plate.translocate.name=Translocation Plate
-tile.thermalexpansion.plate.charge.name=Charge Plate
-tile.thermalexpansion.plate.teleport.name=Teleport Plate
-tile.thermalexpansion.plate.excursion.name=Excursion Plate
+tile.thermalexpansion.plate.frame.name=プレートフレーム
+tile.thermalexpansion.plate.impulse.name=推進プレート
+tile.thermalexpansion.plate.signal.name=レッドストーンプレート
+tile.thermalexpansion.plate.translocate.name=転移プレート
+tile.thermalexpansion.plate.charge.name=チャージプレート
+tile.thermalexpansion.plate.teleport.name=テレポートプレート
+tile.thermalexpansion.plate.excursion.name=遊覧プレート
 
-tile.thermalexpansion.rockwool.black.name=Black Rockwool
-tile.thermalexpansion.rockwool.red.name=Red Rockwool
-tile.thermalexpansion.rockwool.green.name=Green Rockwool
-tile.thermalexpansion.rockwool.brown.name=Brown Rockwool
-tile.thermalexpansion.rockwool.blue.name=Blue Rockwool
-tile.thermalexpansion.rockwool.purple.name=Purple Rockwool
-tile.thermalexpansion.rockwool.cyan.name=Cyan Rockwool
-tile.thermalexpansion.rockwool.silver.name=Light Gray Rockwool
-tile.thermalexpansion.rockwool.gray.name=Gray Rockwool
-tile.thermalexpansion.rockwool.pink.name=Pink Rockwool
-tile.thermalexpansion.rockwool.lime.name=Lime Rockwool
-tile.thermalexpansion.rockwool.yellow.name=Yellow Rockwool
-tile.thermalexpansion.rockwool.lightBlue.name=Light Blue Rockwool
-tile.thermalexpansion.rockwool.magenta.name=Magenta Rockwool
-tile.thermalexpansion.rockwool.orange.name=Orange Rockwool
-tile.thermalexpansion.rockwool.white.name=White Rockwool
+tile.thermalexpansion.rockwool.black.name=黒色の岩綿
+tile.thermalexpansion.rockwool.red.name=赤色の岩綿
+tile.thermalexpansion.rockwool.green.name=緑色の岩綿
+tile.thermalexpansion.rockwool.brown.name=茶色の岩綿
+tile.thermalexpansion.rockwool.blue.name=青色の岩綿
+tile.thermalexpansion.rockwool.purple.name=紫色の岩綿
+tile.thermalexpansion.rockwool.cyan.name=水色の岩綿
+tile.thermalexpansion.rockwool.silver.name=薄灰色の岩綿
+tile.thermalexpansion.rockwool.gray.name=灰色の岩綿
+tile.thermalexpansion.rockwool.pink.name=桃色の岩綿
+tile.thermalexpansion.rockwool.lime.name=黄緑色の岩綿
+tile.thermalexpansion.rockwool.yellow.name=黄色の岩綿
+tile.thermalexpansion.rockwool.lightBlue.name=空色の岩綿
+tile.thermalexpansion.rockwool.magenta.name=赤紫色の岩綿
+tile.thermalexpansion.rockwool.orange.name=橙色の岩綿
+tile.thermalexpansion.rockwool.white.name=白色の岩綿
 
-tile.thermalexpansion.sponge.creative.name=Creative Sponge
-tile.thermalexpansion.sponge.basic.name=Plain Sponge
-tile.thermalexpansion.sponge.magmatic.name=Magmatic Sponge
+tile.thermalexpansion.sponge.creative.name=クリエイティブスポンジ
+tile.thermalexpansion.sponge.basic.name=普通のスポンジ
+tile.thermalexpansion.sponge.magmatic.name=耐熱スポンジ
 
-tile.thermalexpansion.strongbox.creative.name=Creative Strongbox
-tile.thermalexpansion.strongbox.basic.name=Strongbox
-tile.thermalexpansion.strongbox.hardened.name=Hardened Strongbox
-tile.thermalexpansion.strongbox.reinforced.name=Reinforced Strongbox
-tile.thermalexpansion.strongbox.resonant.name=Resonant Strongbox
+tile.thermalexpansion.strongbox.creative.name=クリエイティブ金庫
+tile.thermalexpansion.strongbox.basic.name=金庫
+tile.thermalexpansion.strongbox.hardened.name=硬化金庫
+tile.thermalexpansion.strongbox.reinforced.name=増強金庫
+tile.thermalexpansion.strongbox.resonant.name=共振金庫
 
-tile.thermalexpansion.tank.creative.name=Creative Portable Tank
-tile.thermalexpansion.tank.basic.name=Portable Tank
-tile.thermalexpansion.tank.hardened.name=Hardened Portable Tank
-tile.thermalexpansion.tank.reinforced.name=Reinforced Portable Tank
-tile.thermalexpansion.tank.resonant.name=Resonant Portable Tank
+tile.thermalexpansion.tank.creative.name=クリエイティブ携帯タンク
+tile.thermalexpansion.tank.basic.name=携帯タンク
+tile.thermalexpansion.tank.hardened.name=硬化携帯タンク
+tile.thermalexpansion.tank.reinforced.name=増強携帯タンク
+tile.thermalexpansion.tank.resonant.name=共振携帯タンク
 
-tile.thermalexpansion.workbench.creative.name=Creative Machinist's Workbench
-tile.thermalexpansion.workbench.basic.name=Machinist's Workbench
-tile.thermalexpansion.workbench.hardened.name=Hardened Machinist's Workbench
-tile.thermalexpansion.workbench.reinforced.name=Reinforced Machinist's Workbench
-tile.thermalexpansion.workbench.resonant.name=Resonant Machinist's Workbench
+tile.thermalexpansion.workbench.creative.name=クリエイティブワークテーブル
+tile.thermalexpansion.workbench.basic.name=ワークテーブル
+tile.thermalexpansion.workbench.hardened.name=硬化ワークテーブル
+tile.thermalexpansion.workbench.reinforced.name=増強ワークテーブル
+tile.thermalexpansion.workbench.resonant.name=共振ワークテーブル
 
 #To be removed
-tile.thermalexpansion.device.workbench.name=Machinist's Workbench
-info.thermalexpansion.device.workbench=Crafts things, can make use of Schematics.
+tile.thermalexpansion.device.workbench.name=ワークテーブル
+info.thermalexpansion.device.workbench=ものづくりと設計図の作成
