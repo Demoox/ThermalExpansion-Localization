@@ -434,10 +434,12 @@ tab.thermalexpansion.machine.insolator.3=綺麗に輝く
 
 tab.thermalexpansion.plate.signal.0=上に乗ると離れたところにレッドストーン信号を出力します。
 tab.thermalexpansion.plate.signal.1=信号のパラメータは変更できます。
-tab.thermalexpansion.plate.impulse.0=乗っかるとふっ飛ばします。
+tab.thermalexpansion.plate.impulse.0=乗っかったエンティティをふっ飛ばします。
 tab.thermalexpansion.plate.impulse.1=射出強度及び角度は変更できます。
 tab.thermalexpansion.plate.translocate.0=上に乗っかったエンティティをテレポートさせます。
 tab.thermalexpansion.plate.translocate.1=テレポート距離を設定できます。
+tab.thermalexpansion.plate.charge.0=上に乗っかったプレイヤーのインベントリ内のアイテム、もしくは上に落ちているアイテムにRFを充填します。
+tab.thermalexpansion.plate.charge.1=GUIの唯一のボタンで、プレイヤーとアイテム、またはプレイヤーのみを対象にするかを設定できます。
 
 tab.thermalexpansion.satchel.0=サッチェルだ。そんな多くは入らない。
 tab.thermalexpansion.satchel.1=払い戻しなし。
