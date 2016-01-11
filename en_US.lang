@@ -228,11 +228,11 @@ info.thermalexpansion.plate.signal=Emits a redstone signal on contact.
 info.thermalexpansion.plate.impulse=Imparts motion to things on contact.
 info.thermalexpansion.plate.translocate=Teleports things on contact.
 info.thermalexpansion.plate.charge=Charges things on contact.
-# info.thermalexpansion.plate.excursion=Excurses things on contact.
-info.thermalexpansion.plate.teleport=Teleports things long distance on contact.
+info.thermalexpansion.plate.excursion=Projects a beam of force.
+info.thermalexpansion.plate.teleport=Teleports things to a linked plate.
 
-info.thermalexpansion.plate.charge.playersOnly=Charge only players
-info.thermalexpansion.plate.charge.anything=Charge items and players
+info.thermalexpansion.plate.charge.playersOnly=Charge players only.
+info.thermalexpansion.plate.charge.anything=Charge players and items.
 
 info.thermalexpansion.rockwool.default=Created by smelting Slag.
 info.thermalexpansion.rockwool.dyed=Created by dyeing other Rockwool.
@@ -423,6 +423,12 @@ tab.thermalexpansion.plate.impulse.0=Imparts momentum on contact.
 tab.thermalexpansion.plate.impulse.1=Force and angle may be configured.
 tab.thermalexpansion.plate.translocate.0=Teleport objects and entities on contact.
 tab.thermalexpansion.plate.translocate.1=Distance may be configured.
+tab.thermalexpansion.plate.charge.0=Charges things on contact.
+tab.thermalexpansion.plate.charge.1=Can be configured to ignore items.
+tab.thermalexpansion.plate.excursion.0=Projects a beam of force which moves objects.
+tab.thermalexpansion.plate.excursion.1=Direction of the beam and redstone behavior may be configured.
+tab.thermalexpansion.plate.teleport.0=
+tab.thermalexpansion.plate.teleport.1=
 
 tab.thermalexpansion.satchel.0=It's a satchel. Will not store some objects.
 tab.thermalexpansion.satchel.1=No refunds.
