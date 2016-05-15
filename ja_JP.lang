@@ -383,7 +383,7 @@ tab.thermalexpansion.dynamo.steam.1=固形燃料と水で蒸気を生み出し�
 tab.thermalexpansion.dynamo.magmatic.0=とても熱い液体でRFを生産します。
 tab.thermalexpansion.dynamo.compression.0=液体燃料と冷却液でRFを生産します。
 tab.thermalexpansion.dynamo.reactant.0=アルケミカルな反応でRFを生産します。
-tab.thermalexpansion.dynamo.reactant.1=個体の反応剤と液体の燃料の供給が必須です。
+tab.thermalexpansion.dynamo.reactant.1=固体の反応剤と液体の燃料の供給が必須です。
 tab.thermalexpansion.dynamo.enervation.0=RFを自然な原料もしくは蓄電機から吸い出します。
 
 tab.thermalexpansion.ender.tesseract.0=遥かに遠いところやディメンションをまたいだところに、瞬く間に転送します。
@@ -409,7 +409,7 @@ tab.thermalexpansion.machine.smelter.3=絶対に食べ物を料理できない�
 tab.thermalexpansion.machine.crucible.0=固体を液体に
 tab.thermalexpansion.machine.crucible.1=上位の機械の作成に有用です。
 tab.thermalexpansion.machine.crucible.2=小さい子供やペットから離してご使用下さい。
-tab.thermalexpansion.machine.transposer.0=アイテムが保持しているを吸い出したり、アイテムに液体を注入したりします。
+tab.thermalexpansion.machine.transposer.0=アイテムが保持している液体を吸い出したり、アイテムに液体を注入したりします。
 tab.thermalexpansion.machine.transposer.1=そのボタンで注入や吸い出しを切り替えられます。
 tab.thermalexpansion.machine.transposer.2=典型的な可逆的処理
 tab.thermalexpansion.machine.precipitator.0=いろんな液体をRFを用いて凍らせます。
