@@ -461,7 +461,7 @@ tile.thermalexpansion.light.lampDim.name=Lampada di luminio radioso tenue
 tile.thermalexpansion.light.lampDimAlt.name=Lampada di luminio tenue
 
 tile.thermalexpansion.machine.furnace.name=Fornace a pietrarossa
-tile.thermalexpansion.machine.pulverizer.name=Polverizatore
+tile.thermalexpansion.machine.pulverizer.name=Polverizzatore
 tile.thermalexpansion.machine.sawmill.name=Segheria
 tile.thermalexpansion.machine.smelter.name=Fonderia ad induzione
 tile.thermalexpansion.machine.crucible.name=Crogiolo magmatico
